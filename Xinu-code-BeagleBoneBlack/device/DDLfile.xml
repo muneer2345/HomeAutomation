@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<ddl>
+	<device>
+		<name>LED</name>
+		<id>0</id>
+		<mode>out</mode>
+		<func1>write</func1>
+		<func2>read</func2>
+	</device>
+	
+	<device>
+		<name>temp_sensor</name>
+		<id>1</id>
+		<mode>in</mode>
+		<func1>write</func1>
+		<func2>read</func2>
+	</device>
+	
+</ddl>

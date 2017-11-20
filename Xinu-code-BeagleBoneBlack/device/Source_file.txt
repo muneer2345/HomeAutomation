@@ -1,0 +1,23 @@
+#include<xinu.h>
+
+char* device_read(int dev_id,  char* dev_name, char *buf, int val){
+	
+	switch(dev_id){
+		#Add_in_code_here
+		default: 
+			break;		
+	}
+
+	return buf;
+}
+
+
+int device_write(int dev_id, char* dev_name, char *buf, int val){	
+	switch(dev_id){
+		#Add_out_code_here
+		default:
+			break;
+		}
+
+	return 0;
+}
